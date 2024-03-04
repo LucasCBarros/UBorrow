@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="gGq-CV-nYU">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Tutorial View Controller-->
+        <scene sceneID="Df9-jy-Mjg">
+            <objects>
+                <viewController id="gGq-CV-nYU" customClass="TutorialViewController" customModule="UBorrow" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DWK-oW-TKh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Kv-eh-saW">
+                                <rect key="frame" x="157" y="308" width="61" height="50"/>
+                                <color key="backgroundColor" red="0.96470588239999999" green="0.18039215689999999" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="2Kv-eh-saW" secondAttribute="height" multiplier="61:50" id="4RI-ff-s2o"/>
+                                    <constraint firstAttribute="width" constant="61" id="JJz-mN-fpf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="15"/>
+                                <state key="normal" title="back">
+                                    <color key="titleColor" red="0.15686274510000001" green="0.16862745100000001" blue="0.20784313730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="click_QuitBtn:" destination="gGq-CV-nYU" eventType="touchUpInside" id="QMb-Je-T6A"/>
+                                </connections>
+                            </button>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" alwaysBounceHorizontal="YES" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Sf8-Ep-dg0">
+                                <rect key="frame" x="0.0" y="10" width="375" height="667"/>
+                            </scrollView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="bff-sd-Tm7">
+                                <rect key="frame" x="80" y="530" width="215" height="37"/>
+                            </pageControl>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="2Kv-eh-saW" firstAttribute="centerY" secondItem="DWK-oW-TKh" secondAttribute="centerY" id="1BJ-i0-Qvm"/>
+                            <constraint firstItem="vHL-Dq-S6N" firstAttribute="bottom" secondItem="bff-sd-Tm7" secondAttribute="bottom" constant="100" id="2N9-Rk-Rem"/>
+                            <constraint firstItem="vHL-Dq-S6N" firstAttribute="trailing" secondItem="bff-sd-Tm7" secondAttribute="trailing" constant="80" id="BsT-bn-MMj"/>
+                            <constraint firstItem="bff-sd-Tm7" firstAttribute="leading" secondItem="vHL-Dq-S6N" secondAttribute="leading" constant="80" id="Cam-2h-1Hc"/>
+                            <constraint firstItem="Sf8-Ep-dg0" firstAttribute="centerX" secondItem="vHL-Dq-S6N" secondAttribute="centerX" id="ab7-jT-JsR"/>
+                            <constraint firstItem="Sf8-Ep-dg0" firstAttribute="centerY" secondItem="vHL-Dq-S6N" secondAttribute="centerY" id="eDx-aC-cNw"/>
+                            <constraint firstItem="Sf8-Ep-dg0" firstAttribute="height" secondItem="DWK-oW-TKh" secondAttribute="height" id="g2y-Kd-yXP"/>
+                            <constraint firstItem="Sf8-Ep-dg0" firstAttribute="width" secondItem="DWK-oW-TKh" secondAttribute="width" id="jKf-lS-6yg"/>
+                            <constraint firstItem="2Kv-eh-saW" firstAttribute="centerX" secondItem="bff-sd-Tm7" secondAttribute="centerX" id="m0M-0A-nr5"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="vHL-Dq-S6N"/>
+                    </view>
+                    <connections>
+                        <outlet property="quitButton" destination="2Kv-eh-saW" id="vkh-Bw-uRC"/>
+                        <outlet property="tutorialPageControll" destination="bff-sd-Tm7" id="xI3-Mh-5Kc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VGZ-0J-hSz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="597.60000000000002" y="106.59670164917542"/>
+        </scene>
+    </scenes>
+</document>

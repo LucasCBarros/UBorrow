@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="j6q-sF-LDT">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--App Tutorial View Controller-->
+        <scene sceneID="Tpi-xk-P1V">
+            <objects>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="j6q-sF-LDT" customClass="AppTutorialViewController" customModule="UBorrow" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LQc-im-bNB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="113" y="27"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="P1v-MS-GMe">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hr9-Mu-BfY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController storyboardIdentifier="Page3" id="Blw-4T-AqI" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bBm-p7-WAK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TutorialPage3" translatesAutoresizingMaskIntoConstraints="NO" id="CPc-ER-1vl">
+                                <rect key="frame" x="0.0" y="-24" width="375" height="691"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.029855478554964066" green="0.20032742619514465" blue="0.3581041693687439" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="qLO-OX-PKs" firstAttribute="trailing" secondItem="CPc-ER-1vl" secondAttribute="trailing" id="QYq-Ug-MBm"/>
+                            <constraint firstItem="CPc-ER-1vl" firstAttribute="leading" secondItem="qLO-OX-PKs" secondAttribute="leading" id="kD9-f8-tSz"/>
+                            <constraint firstItem="qLO-OX-PKs" firstAttribute="bottom" secondItem="CPc-ER-1vl" secondAttribute="bottom" id="mTd-kf-VbH"/>
+                            <constraint firstItem="CPc-ER-1vl" firstAttribute="top" secondItem="qLO-OX-PKs" secondAttribute="top" constant="-44" id="zB9-Yv-fVz"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="qLO-OX-PKs"/>
+                    </view>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="2279" y="27"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="hmu-kO-hNe">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5NP-wA-OEx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController storyboardIdentifier="Page2" id="qNx-d5-ry9" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Nf4-nB-vPq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TutorialPage2" translatesAutoresizingMaskIntoConstraints="NO" id="3VP-Qr-kSZ">
+                                <rect key="frame" x="0.0" y="-24" width="375" height="691"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.029855478554964066" green="0.20032742619514465" blue="0.3581041693687439" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="3VP-Qr-kSZ" firstAttribute="leading" secondItem="kNO-0l-tKF" secondAttribute="leading" id="609-ee-j7g"/>
+                            <constraint firstItem="kNO-0l-tKF" firstAttribute="bottom" secondItem="3VP-Qr-kSZ" secondAttribute="bottom" id="UQd-Eh-fto"/>
+                            <constraint firstItem="kNO-0l-tKF" firstAttribute="trailing" secondItem="3VP-Qr-kSZ" secondAttribute="trailing" id="cEA-4j-2GK"/>
+                            <constraint firstItem="3VP-Qr-kSZ" firstAttribute="top" secondItem="kNO-0l-tKF" secondAttribute="top" constant="-44" id="eA5-9I-Pkz"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="kNO-0l-tKF"/>
+                    </view>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1551" y="27"/>
+        </scene>
+        <!--Tutorial View Controller-->
+        <scene sceneID="S2l-5F-aox">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vog-iK-wEa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController storyboardIdentifier="Page1" id="HAh-d8-14b" customClass="TutorialViewController" customModule="UBorrow" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="EiB-G4-Obs">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TutorialPage1" translatesAutoresizingMaskIntoConstraints="NO" id="CpI-nK-QkE">
+                                <rect key="frame" x="0.0" y="-24" width="375" height="691"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.029855478554964066" green="0.20032742619514465" blue="0.3581041693687439" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="zr7-Sd-UFa" firstAttribute="bottom" secondItem="CpI-nK-QkE" secondAttribute="bottom" id="0oa-IL-fri"/>
+                            <constraint firstItem="CpI-nK-QkE" firstAttribute="leading" secondItem="zr7-Sd-UFa" secondAttribute="leading" id="E6E-zr-wjQ"/>
+                            <constraint firstItem="zr7-Sd-UFa" firstAttribute="trailing" secondItem="CpI-nK-QkE" secondAttribute="trailing" id="MS3-wz-bdY"/>
+                            <constraint firstItem="zr7-Sd-UFa" firstAttribute="trailing" secondItem="CpI-nK-QkE" secondAttribute="trailing" id="Rkp-bH-Nbn"/>
+                            <constraint firstItem="CpI-nK-QkE" firstAttribute="leading" secondItem="zr7-Sd-UFa" secondAttribute="leading" id="Tbd-27-mk1"/>
+                            <constraint firstItem="zr7-Sd-UFa" firstAttribute="bottom" secondItem="CpI-nK-QkE" secondAttribute="bottom" id="tSy-qV-XrN"/>
+                            <constraint firstItem="CpI-nK-QkE" firstAttribute="top" secondItem="zr7-Sd-UFa" secondAttribute="top" constant="-44" id="yQ3-nI-4UW"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="zr7-Sd-UFa"/>
+                    </view>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="790" y="27"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="RQX-He-y30">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wn6-0K-gYU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController storyboardIdentifier="Page4" id="WJ6-AV-en6" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jzu-Yr-Ehy">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TutorialPage4" translatesAutoresizingMaskIntoConstraints="NO" id="dYW-Lt-8qy">
+                                <rect key="frame" x="0.0" y="-24" width="375" height="691"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.029855478550000002" green="0.20032742619999999" blue="0.35810416940000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="dYW-Lt-8qy" firstAttribute="top" secondItem="VaF-CA-PT8" secondAttribute="top" constant="-44" id="BzL-z5-dqe"/>
+                            <constraint firstItem="VaF-CA-PT8" firstAttribute="bottom" secondItem="dYW-Lt-8qy" secondAttribute="bottom" id="Itl-lG-Fpm"/>
+                            <constraint firstItem="VaF-CA-PT8" firstAttribute="trailing" secondItem="dYW-Lt-8qy" secondAttribute="trailing" id="Ow4-E2-Kkp"/>
+                            <constraint firstItem="dYW-Lt-8qy" firstAttribute="leading" secondItem="VaF-CA-PT8" secondAttribute="leading" id="hQf-Uq-2Tw"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="VaF-CA-PT8"/>
+                    </view>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="113" y="716"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="2iL-Kg-uMl">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZDu-To-Rp8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController storyboardIdentifier="Page5" id="7uj-UP-MyK" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KP0-MW-N9R">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TutorialPage5" translatesAutoresizingMaskIntoConstraints="NO" id="2Ee-gL-K4g">
+                                <rect key="frame" x="0.0" y="-24" width="375" height="691"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.029855478550000002" green="0.20032742619999999" blue="0.35810416940000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="2Ee-gL-K4g" firstAttribute="top" secondItem="1bc-Y4-Szr" secondAttribute="top" constant="-44" id="D1M-2O-eVN"/>
+                            <constraint firstItem="2Ee-gL-K4g" firstAttribute="leading" secondItem="1bc-Y4-Szr" secondAttribute="leading" id="KVz-RF-fhK"/>
+                            <constraint firstItem="1bc-Y4-Szr" firstAttribute="bottom" secondItem="2Ee-gL-K4g" secondAttribute="bottom" id="QQy-5z-qNv"/>
+                            <constraint firstItem="1bc-Y4-Szr" firstAttribute="trailing" secondItem="2Ee-gL-K4g" secondAttribute="trailing" id="TwQ-PB-B8e"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="1bc-Y4-Szr"/>
+                    </view>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1550" y="720"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ocb-ob-bwK">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wJl-As-L7N" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController storyboardIdentifier="Page6" id="YpM-R2-04Z" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="E80-fI-nwd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TutorialPage6" translatesAutoresizingMaskIntoConstraints="NO" id="uhO-nS-phk">
+                                <rect key="frame" x="0.0" y="-24" width="375" height="691"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.029855478550000002" green="0.20032742619999999" blue="0.35810416940000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="uhO-nS-phk" firstAttribute="leading" secondItem="1sf-0R-wLI" secondAttribute="leading" id="0gb-QC-zPQ"/>
+                            <constraint firstItem="1sf-0R-wLI" firstAttribute="trailing" secondItem="uhO-nS-phk" secondAttribute="trailing" id="Z5C-w1-JMN"/>
+                            <constraint firstItem="1sf-0R-wLI" firstAttribute="bottom" secondItem="uhO-nS-phk" secondAttribute="bottom" id="bHr-8x-ZQy"/>
+                            <constraint firstItem="uhO-nS-phk" firstAttribute="top" secondItem="1sf-0R-wLI" secondAttribute="top" constant="-44" id="l3w-4O-IRe"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="1sf-0R-wLI"/>
+                    </view>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="3022" y="716"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Jc4-61-FWv">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XiR-Fm-fZ6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController storyboardIdentifier="Page7" id="75t-0X-M6K" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5QO-Jw-UDz">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TutorialPage7" translatesAutoresizingMaskIntoConstraints="NO" id="rYr-2Z-a0C">
+                                <rect key="frame" x="0.0" y="-24" width="375" height="691"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.029855478550000002" green="0.20032742619999999" blue="0.35810416940000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="rYr-2Z-a0C" firstAttribute="top" secondItem="er0-VA-VR8" secondAttribute="top" constant="-44" id="9Yx-pU-AXB"/>
+                            <constraint firstItem="rYr-2Z-a0C" firstAttribute="leading" secondItem="er0-VA-VR8" secondAttribute="leading" id="agI-tO-j9I"/>
+                            <constraint firstItem="er0-VA-VR8" firstAttribute="bottom" secondItem="rYr-2Z-a0C" secondAttribute="bottom" id="pdc-Yn-xKY"/>
+                            <constraint firstItem="er0-VA-VR8" firstAttribute="trailing" secondItem="rYr-2Z-a0C" secondAttribute="trailing" id="w2H-V4-Pth"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="er0-VA-VR8"/>
+                    </view>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="3766" y="716"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="e1t-B6-duA">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wzk-WQ-0pw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController storyboardIdentifier="Page32" id="2Ez-nH-xZh" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oWg-hr-aSj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TutorialPage3_2" translatesAutoresizingMaskIntoConstraints="NO" id="oGL-BX-er4">
+                                <rect key="frame" x="0.0" y="-24" width="375" height="691"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.029855478550000002" green="0.20032742619999999" blue="0.35810416940000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="3j3-L7-C0i" firstAttribute="bottom" secondItem="oGL-BX-er4" secondAttribute="bottom" id="5SL-DG-mXC"/>
+                            <constraint firstItem="oGL-BX-er4" firstAttribute="leading" secondItem="3j3-L7-C0i" secondAttribute="leading" id="F9Q-Gc-Mg6"/>
+                            <constraint firstItem="oGL-BX-er4" firstAttribute="top" secondItem="3j3-L7-C0i" secondAttribute="top" constant="-44" id="aAa-kM-K7K"/>
+                            <constraint firstItem="3j3-L7-C0i" firstAttribute="trailing" secondItem="oGL-BX-er4" secondAttribute="trailing" id="hAr-zq-Z9z"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="3j3-L7-C0i"/>
+                    </view>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="3023" y="27"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Klz-h5-F70">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="52D-Hn-YVe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController storyboardIdentifier="Page8" id="2rx-Ut-D1T" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1fX-Mu-x5Y">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TutorialPage8" translatesAutoresizingMaskIntoConstraints="NO" id="3y9-6d-rX5">
+                                <rect key="frame" x="0.0" y="-24" width="375" height="691"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.029855478550000002" green="0.20032742619999999" blue="0.35810416940000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="1Qv-xn-bOh" firstAttribute="bottom" secondItem="3y9-6d-rX5" secondAttribute="bottom" id="E0r-P2-S6Y"/>
+                            <constraint firstItem="1Qv-xn-bOh" firstAttribute="trailing" secondItem="3y9-6d-rX5" secondAttribute="trailing" id="FSM-Re-cG6"/>
+                            <constraint firstItem="3y9-6d-rX5" firstAttribute="leading" secondItem="1Qv-xn-bOh" secondAttribute="leading" id="Ik8-qJ-o2U"/>
+                            <constraint firstItem="3y9-6d-rX5" firstAttribute="top" secondItem="1Qv-xn-bOh" secondAttribute="top" constant="-44" id="Qd8-ir-y9L"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="1Qv-xn-bOh"/>
+                    </view>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="790" y="717"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="EBL-pa-KMB">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6kL-DC-49a" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController storyboardIdentifier="Page9" id="boM-wu-tRL" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lOX-A8-IhN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TutorialPage9" translatesAutoresizingMaskIntoConstraints="NO" id="hhK-LW-1KL">
+                                <rect key="frame" x="0.0" y="-24" width="375" height="691"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.029855478550000002" green="0.20032742619999999" blue="0.35810416940000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Soq-oz-0eI" firstAttribute="bottom" secondItem="hhK-LW-1KL" secondAttribute="bottom" id="Lb8-5k-X2U"/>
+                            <constraint firstItem="hhK-LW-1KL" firstAttribute="leading" secondItem="Soq-oz-0eI" secondAttribute="leading" id="bsV-pb-4ZT"/>
+                            <constraint firstItem="Soq-oz-0eI" firstAttribute="trailing" secondItem="hhK-LW-1KL" secondAttribute="trailing" id="iSf-xG-tTI"/>
+                            <constraint firstItem="hhK-LW-1KL" firstAttribute="top" secondItem="Soq-oz-0eI" secondAttribute="top" constant="-44" id="imN-oJ-zs6"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Soq-oz-0eI"/>
+                    </view>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="2278" y="716"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="TutorialPage1" width="375" height="667"/>
+        <image name="TutorialPage2" width="375" height="667"/>
+        <image name="TutorialPage3" width="375" height="667"/>
+        <image name="TutorialPage3_2" width="375" height="667"/>
+        <image name="TutorialPage4" width="375" height="667"/>
+        <image name="TutorialPage5" width="375" height="667"/>
+        <image name="TutorialPage6" width="375" height="667"/>
+        <image name="TutorialPage7" width="375" height="667"/>
+        <image name="TutorialPage8" width="375" height="667"/>
+        <image name="TutorialPage9" width="375" height="667"/>
+    </resources>
+</document>
